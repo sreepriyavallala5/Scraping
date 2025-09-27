@@ -1,0 +1,14 @@
+network_profiles:
+- page_id: local-1
+  title: Sample Page
+  labels:
+  - netwrok-req
+  top_apps:
+  - livetv
+  - companion
+  offboard:
+  - url: https://payments.example.com/notify
+  exposed:
+  - host: api.example.com
+    port: 443
+    protocol: https
